@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/Rajaraj.jpeg';
 
 const About = () => {
   return (
@@ -16,9 +16,8 @@ const About = () => {
             / / I am not your average developer
           </p>
           <p className='py-2 text-gray-600'>
-            I have spent the last 12 years in the fire service working as a
-            professional firefighter/paramedic. I have always had a knack for
-            technology and working with computers. In 2019 I started working
+             <span className='font-bold text-xl'> Hey Hii I am Raja raj CEO & Founder Of Placement Wallah</span>. I have always had a knack for
+            technology and working with computers. In 2018 I started working
             with HTML and CSS to make some minor edits on a small business
             website that I was operating. What I thought was just a few small
             edits turned into a love for programming.
