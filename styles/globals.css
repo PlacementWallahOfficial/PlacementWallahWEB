@@ -124,7 +124,7 @@ card {
     , #5ddcff, #3c67e3 43%, #4e00c2);
     opacity: 1;
   transition: opacity .5s;
-  animation: spin 1.4s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 
 @keyframes spin {
