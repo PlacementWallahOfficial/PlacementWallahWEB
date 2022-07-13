@@ -54,7 +54,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:bg-[#28282B]">
         <Link href="/">
           <a>
             <h2 className="text-2xl font-semibold">Placement Wallah</h2>
@@ -69,32 +69,32 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/resume">Resume</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
           <div
-            style={{ color: `${linkColor}` }}
+            style={{ color: `${linkColor}`}}
             onClick={handleNav}
             className="md:hidden"
           >
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={25} className="dark:text-[#FDFBF9]" />
           </div>
         </div>
       </div>
@@ -103,15 +103,15 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 font-white" : ""
         }
       >
         {/* Side Drawer Menu */}
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 dark:bg-[#28282B]"
+              : "fixed left-[-100%] top-0 p-10 ease-in duration-500 dark:bg-[#28282B]"
           }
         >
           <div>

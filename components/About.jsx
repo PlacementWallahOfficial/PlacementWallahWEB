@@ -15,7 +15,7 @@ const About = () => {
           {/* <p className='py-2 text-gray-600'>
             / / I am not your average developer
           </p> */}
-          <p className="py-2 text-gray-600 text-lg">
+          <p className="py-2 text-gray-600 text-lg dark:text-[#FDFBF9] opacity-75">
             <span className="font-bold text-xl">
               Hey Hii I am Raja raj CEO & Founder Of Placement Wallah. 
             </span>
@@ -23,11 +23,11 @@ const About = () => {
 
 
           </p>
-          <p className="py-2 text-gray-600 text-lg">
+          <p className="py-2 text-gray-600 text-lg dark:text-[#FDFBF9] opacity-75">
           Fast-forward to today, and I’ve had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
           </p>
           <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
+            <p className="py-2 text-gray-600 underline cursor-pointer dark:text-[#FDFBF9] opacity-75">
               Check out some of my latest Projects.
             </p>
           </Link>

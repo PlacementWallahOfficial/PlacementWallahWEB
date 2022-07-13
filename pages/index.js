@@ -4,8 +4,10 @@ import Contact from "../components/Contact";
 import Main from "../components/Main";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import { useTheme } from "next-themes";
 
 export default function Home() {
+  const { theme, setTheme } = useTheme();
   return (
     <div>
       <Head>
@@ -21,6 +23,12 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+      <button
+        className="p-2 rounded-lg fixed bottom-4 right-4"
+        onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+      >
+        {theme === "light" ? "Dark" : "Light"}
+      </button>
     </div>
   );
 }
