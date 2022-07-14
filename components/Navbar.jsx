@@ -69,22 +69,22 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] transition duration-100 hover:delay-75 ease-in-out dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] transition duration-100 hover:delay-75 ease-in-out dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] transition duration-100 hover:delay-75 ease-in-out dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] transition duration-100 hover:delay-75 ease-in-out dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] transition duration-100 hover:delay-75 ease-in-out dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/resume">Resume</Link>
             </li>
-            <li className="ml-10 text-md uppercase hover:text-[#00E676] dark:text-teal-300 dark:hover:text-[#ffffff]">
+            <li className="ml-10 text-md uppercase hover:text-[#00E676] transition duration-100 hover:delay-75 ease-in-out dark:text-teal-300 dark:hover:text-[#ffffff]">
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
