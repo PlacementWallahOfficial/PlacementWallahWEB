@@ -5,6 +5,7 @@ import Main from "../components/Main";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import { useTheme } from "next-themes";
+import { Facebook } from "../components/Facebook";
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
@@ -23,6 +24,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+      <Facebook />
       {/* <button
         className="p-2 rounded-lg fixed bottom-4 right-4"
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
