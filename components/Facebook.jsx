@@ -11,7 +11,7 @@ export function init() {
   window.fbAsyncInit = function () {
     FB.init({
       xfbml: true,
-      version: "v14.0",
+      version: "v11.0",
     });
   };
 
