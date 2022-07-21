@@ -34,7 +34,7 @@ export default function Home() {
 
       <label
         htmlFor="default-toggle"
-        className="inline-flex items-center cursor-pointer fixed bottom-4 right-4"
+        className="inline-flex items-center cursor-pointer fixed bottom-4 right-6"
       >
         <input
           type="checkbox"
